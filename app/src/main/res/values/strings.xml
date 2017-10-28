@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">CTD \'17</string>
+    <string name="title_activity_main">CTD \'17</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_seminar1">Seminar 1</string>
+    <string name="btn_seminar2">Seminar 2</string>
+    <string name="btn_seminar3">Seminar 3</string>
+
+    <string name="info_rc">Given some sequence of steps, writing a code and getting the output is quite mainstream!\nWant to try a reverse way?\nIf given some input and output,
+        can you find the logic and sequence?\nFocusing less on concepts, all you need is your logical skill to decipher this "Black Box".\n<b>Reverse Coding</b> is a logical event which tests your basic logical skills along with pattern analysis and recognition as you play with the code.\n<b>So get ready to go
+            the reverse way in CTD \'17!</b>\n\nDate: 20th February, 2017\nTime:  4:00 pm</string>
+    <string name="info_sig">SIG is the acronym for \'Special Interest Group\'. PISB is using this venture to cultivate the habit of having a practical and analytical approach to teaching computer subjects. Here the students get a hands-on experience of coding and electronics. The students thus come across an unparalleled experience which gives them an upper edge over their contemporaries.</string>
+    <string name="special_interest_groups_sigs">Special Interest Groups (SIGs)</string>
+    <string name="competitive_programming">Competitive Programming</string>
+    <string name="ethical_hacking">Ethical Hacking</string>
+    <string name="web_developement">Web Development</string>
+
+    <string name="sig_info_web">Ever wondered how a WEBSITE is created?\nPISB is organising a SIG to give you a brief introduction on WEB DEVELOPMENT.\nYou will be learning the basics of HTML and CSS required to create aesthetically pleasing and interactive web pages and understand the mechanism behind its working. Attend this SIG to explore the world of WEB
+        DEVELOPMENT.\n\n<b>Date:</b>6th February, 2017\n<b>Day:</b> Monday\n<b>Venue:</b>A-309\n<b>Time:</b>4:00pm\n\n<b>Speakers:\n</b>Sushrut Shimpi\nShivaji Sawant\nViram Shah</string>
+
+    <string name="sig_info_hack"><b>Think you have what it takes to hack?</b>\n\nThis SIG is designed to teach you how to think like a hacker, providing
+        you with a basic understanding of security issues and concerns.
+        We will discuss simple techniques and methods related to
+        hacking.\n\n<b>So, join us and explore the vestiges of
+            ethical hacking!</b>\n\n<b>Date:</b> 16/02/2017\n<b>Day:</b> Thursday\n\n<b>Speaker:\n</b>Shubham Talole</string>
+
+    <string name="sig_info_cc"><b>Come, code your minds away!</b>\n\nRack
+        your brains to find the quickest and best solution to a problem at hand! Arm yourself with all the
+        tools for efficient coding.\n\nThis intriguing session holds the key to unravelling the deepest secrets of competitive
+        programming.\n\n<b>Date:</b>9/02/2017\n<b>Day:</b> Thursday\n\n<b>Speakers:\n</b>Abizer Lokhandwala\nVarad Kulkarni</string>
+
+
+    <string name="ping_info">P.I.N.G. (PICT IEEE Newsletter Group) is the official technical
+        magazine of PISB published twice a year. P.I.N.G. serves as a platform for individuals to
+        portray their technical ingenuity. It highlights articles on cutting-edge technologies from
+        technocrats all around the globe including students, industrialists and faculty members.
+        It also features interviews of distinguished personalities in various technical
+        domains.\n\nP.I.N.G. aims at keeping its readers up to date on recent developments in technology
+        and helps them extrapolate their perceptions to contemporary ideas of modernisation.\n\nWith the imminent Issue 13.0, be ready to get PING\'d!</string>
+
+    <string name="info_xodia"><b>Xodia</b> is an online event in which your bot will battle it out in a
+        unique game designed for two players. Make your codes play for you!\n\nPresenting this year\'s game: <b>KA-BOOM!</b>\nDesign a strategy to plant your bomb in the enemy\'s base. While your
+        enemy tries to do the same, do you have what it takes to defend your territory?\n\n<b>So get ready with your coding hats on and let the battles begin!</b></string>
+
+    <string name="info_ncc"><b>Are you crazy about ALGORITHMS?</b>\n\nHere\'s an opportunity to divulge into the intricacies of competitive coding. PISB brings you <b>NCC (National Computing Contest)</b>.
+        NCC is a platform where you can not only test your logical acuity but also explore your coding skills.
+        So, get ready to brainstorm your knowledge of C and C++ to code, compile and
+        resolve.\n\nDate: February 13th, 2017\nVenue: Pune Institute of Computer Technology (PICT), Pune.</string>
+
+    <string name="info_nth">Tune into <b>Network Treasure Hunt</b>, an online treasure hunt where participants read between the lines, connect the dots and dig into the internet to solve the riddles.
+Bring out the Sherlock in you to crack a series of strategic clues and get ready to plunge into the world of deductions.
+Explore Google, decode the hints and follow the trail to Decrypt the Encrypted!\nSo go on, log in and unfold the mysteries in these 36 hours
+        long run.\n\n<b>The game is on!</b>\n\nNTH goes live on:
+19th February, 2017\nTimings: 12:00 IST\n\nVisit our website:</string>
+
+    <string name="feedback">If you find a bug in this app or have more ideas for improvement, do not hesitate to contact us.
+             We appreciate your support. Feel free to share your thoughts. Your suggestions are valuable to us.</string>
+
+    <string name="info_ctd">Credenz Tech Dayz (CTD) is organised every year by the members of PISB (PICT IEEE Student Branch). It comprises of series of Seminars delivered by  industrialists and experts on trending ideas in the field of technology.
+PISB members have also taken an initiative to conduct SIG\'s (Special Interest Groups) under CTD to teach you topics of your choice and to clarify your doubts. Topics are selected from technical as well as nontechnical categories.
+In addition to this, several competitions take place to advance learning along with fun and excitement!</string>
+
+    <string name="info_pisb">PICT IEEE Student Branch (PISB)  was established in the year 1998 with the aim of inculcating a sense of technical awareness amongst its student members.
+PISB endeavors to escalate the knowledge and trends in the diverse fields of technologies amongst its members.
+PISB upholds two major events every year, Credenz and Credenz Tech Dayz with the first one being conducted in the even semester and the second one in odd semester.
+PISB is also marked by its Women in Engineering (WIE) chapter, an initiative for empowerment of women in the technical domain.</string>
+
+    <string name="info_ieee">The Institute of Electrical and Electronics Engineering (IEEE) is an international organization, which has been the nexus for propagating scientific expertise among people all over the globe. IEEE continues to attract students, faculty and professionals from various fields all around the world and is committed to incorporating diversity in thoughts which is essential for scientific development. IEEE serves as a hub to many engineering students and faculty members for expressing their technical acuity to the world and has always been at the forefront of the technical revolution.</string>
+
+    <string name="toast_sig">Tap the images for more info.</string>
+
+    <string name="info_inquizitive">Rack your brains and put your mind to the test as you participate in <b>InQuizitive</b>, a quiz held jointly by PISB and PICT Quiz Club\nJoin us for a session of brain teasers that are worded to amuse and amaze.\n\n<b>Get ready to put your thinking caps and exercise those grey cells!</b>\n\nDate: 8th February, 2017\nTime: 4:00 pm</string>
+
+    <string name="info_enigma">Is your forte deriving inferences and finding solutions to real-life problems on the basis of logic? Want to know where you stand among the people having the same interest?\n<b>Enigma</b> is a logic-based event, where questions comprise of day-to-day problems, maths, judging the outcomes or consequences and the reasoning, all of which have logical
+        solutions.\n\nSo prove your mettle, see how efficacious your brain is and get ready for this logical conundrum!\n\nDate: 25th January, 2017</string>
+
+    <string name="info_unravel"><b>Do you have a knack to solve riddles?</b>\n\nPISB brings you <b>Unravel - The On Campus Treasure Hunt!</b>
+If you ever thought of PICT campus being small, get ready to change your thoughts.
+Follow the trail to reach the ultimate treasure! The fun and excitement in the competition increases as you solve the puzzles and move to the next level. Its all about speed and logic.
+Pack your binoculars, wear your running shoes and let your team\'s flag shine at the
+        top!\n\nThe quest begins on 10th February, 2017.\n\nTimings: 4 pm\n\nVenue: Basketball Court</string>
+
+    <string name="app_share">Download the CTD \'17 App\n\n</string>
+
+
+    <string name="seminar1_name"><b>Mr. Pritesh Maker</b>\nEngineering Head,\nDataTorrent Inc.\nSan Francisco Bay Area</string>
+    <string name="seminar1_title"><b>Stream Processing: Introduction and Reference Architecture</b></string>
+    <string name="seminar1_info">Pritesh Maker leads the engineering team at DataTorrent, building their Real Time Streaming platform on Hadoop. Prior to DataTorrent, Pritesh led the core Data Engine team at Informatica, where he made significant contributions to the Data Integration product and the design of a reusable platform for multiple data management
+        products.\n\nVenue: PICT Auditorium\nDate: 15th February, 2017\nTime: 4:00pm</string>
+
+    <string name="seminar21_name"><b>Dr. Gary Ushaw</b>\nNewcastle University</string>
+    <string name="seminar21_title"><b>Computer Game Engineering and\nApplied Research.</b></string>
+    <string name="seminar21_info">With over 15 years of experience in the gaming industry, having worked for companies like <b>Ubisoft, Rockstar, Sony, BBC and Atari</b>, Dr. Ushaw will be conducting the seminar.\n\nHe will be giving us an introduction about the challenges faced during the development of efficient software for computer games and the applications of gaming technologies to wider areas of research.\n\nVenue: PICT Auditorium \nDate: 20th February, 2017\nTime: 3:00pm</string>
+
+    <string name="seminar22_name"><b>Mr. Stephen Gill</b>\nHeriot-Watt University\nDubai Campus</string>
+    <string name="seminar22_title"><b>Data Mining…A Paradox</b>\n</string>
+    <string name="seminar22_info">He is the academic head at Heriot-Watt University, Dubai Campus. His specializations lie in the areas of information and software systems development and data mining. Mr. Stephen Gill has served as a technical analyst and was involved in the design and development of large software systems for the armed forces and companies such as <b>Diageo, Russell Corp and Wrangler Jeans.</b>\n\nThis seminar will give an intriguing insight into one of the most promising fields - <b>Data Mining</b>\n\nVenue: PICT Auditorium \nDate: 20th February, 2017\nTime: 3:00pm</string>
+
+    <string name="seminar31_name"><b>Mr. Simon Lynch</b>\nTeesside University\n</string>
+    <string name="seminar31_title"><b>Artificial Life meets\nArtificial Intelligence</b></string>
+    <string name="seminar31_info">Dr. Simon Lynch is a Principal Lecturer in the School of Computing. Mr. Lynch has professional expertise in the fields of international development, artificial intelligence and complexity. His research interests include agent-based modelling and multiagent systems, the nature of representations, symbolic reasoning and emergent
+        systems\n\nThis seminar will briefly provide examples of the two disciplines and consider how work which straddles the boundary of these two areas influences how we model complexity, public health, etc. and how we can use the ideas in computer games.\n\nVenue: PICT, Computer Seminar Hall \nDate: 20th February, 2017\nTime: 3:00pm</string>
+
+    <string name="seminar32_name"><b>Dr. Craig Stewart</b>\nCoventry University\n</string>
+    <string name="seminar32_title"><b>Personalisation and\nCulture in eLearning</b></string>
+    <string name="seminar32_info">Dr Craig Stewart has worked in the areas of HCI, IT, multimedia, games research and education for over 22 years, as student, researcher, teacher, lecturer, collaborator as well as manager. He has worked in industry as a TEL (Technology Enhanced Learning) consultant for which he created a company focused on EU project preparation, and the multimedia industry as a cultural expert. This has given him a wide ranging experience
+        to draw upon.\n\nELearning is big business in the modern university, however much depends on the same fundamental techniques as have always been used online - namely "one size fits all". The same information, presented in the same manner to every student, no matter the difference in educational, cultural or personal contexts. This talk will discuss a solution to this problem, focussing on how a student\'s cultural background can affect their learning.\n\nVenue: PICT, Computer Seminar Hall \nDate: 20th February, 2017\nTime: 3:00pm</string>
+
+    <string name="seminar4_name"><b>David Collins</b>\nKeele University\n</string>
+    <string name="seminar4_title"><b>Computing, Economics\nand Democracy.</b></string>
+    <string name="seminar4_info">David Collins is the Internationalization Director for the School of Computing and Mathematics at Keele University in the UK. He currently lectures on several Undergraduate and Postgraduate computing courses at Keele University and his main research interests are in the fields of computer vision and complex systems.\n\nThis seminar is a discussion about the way in which contemporary computing is changing the nature of societies.\n\nVenue: PICT, IT Seminar Hall \nDate: 20th February, 2017\nTime: 3:00pm</string>
+</resources>

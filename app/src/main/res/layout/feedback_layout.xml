@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                app:srcCompat="@drawable/ctdlogoblack"
+                android:id="@+id/imageView"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/textView"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developers"
+                android:id="@+id/editText"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:textAllCaps="true"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Sabarinath S."
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Vishva Iyer"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Shreyas Umare"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Shreyas Bhaskarwar"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Anurag Kallurwar"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Prathamesh Jadhav"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Rajat Pathak"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 9405296837"
+                        android:layout_weight="1"
+                        android:textColorLink="#0000ff"
+                        android:linksClickable="true"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 9422028395"
+                        android:layout_weight="1"
+                        android:textColorLink="#0000ff"
+                        android:linksClickable="true"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 9665399664"
+                        android:layout_weight="1"
+                        android:linksClickable="true"
+                        android:textColorLink="#0000ff"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 8237690126"
+                        android:layout_weight="1"
+                        android:linksClickable="true"
+                        android:textColorLink="#0000ff"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 9405225170"
+                        android:layout_weight="1"
+                        android:linksClickable="true"
+                        android:textColorLink="#0000ff"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 8055851129"
+                        android:textColorLink="#0000ff"
+                        android:layout_weight="1"
+                        android:linksClickable="true"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="+91 9420233835"
+                        android:textColorLink="#0000ff"
+                        android:layout_weight="1"
+                        android:linksClickable="true"
+                        android:autoLink="phone"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

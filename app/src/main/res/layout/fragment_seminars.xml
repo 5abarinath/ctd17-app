@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Seminars"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:id="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
+        android:gravity="center" />
+
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#e4f4f4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/priteshmaker"
+                        android:id="@+id/imageView6"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:text="lol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView6"
+                        android:layout_toRightOf="@+id/imageView6"
+                        android:id="@+id/textView4"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:text="@string/seminar1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView6"
+                        android:layout_alignLeft="@+id/imageView6"
+                        android:layout_alignStart="@+id/imageView6"
+                        android:id="@+id/textView6"
+                        android:layout_alignRight="@+id/imageView6"
+                        android:layout_alignEnd="@+id/imageView6"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:text="gg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView6"
+                        android:layout_alignLeft="@+id/textView6"
+                        android:layout_alignStart="@+id/textView6"
+                        android:id="@+id/textView7"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignRight="@+id/textView6"
+                        android:layout_alignEnd="@+id/textView6"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#e4f4f4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

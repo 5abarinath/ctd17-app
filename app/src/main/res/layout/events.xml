@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ncc"
+                android:scaleType="centerCrop"
+                android:id="@+id/nccBtn"
+                android:layout_margin="1dp"
+                android:background="#988bda" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/nth"
+                android:scaleType="fitCenter"
+                android:id="@+id/nthBtn"
+                android:background="#a99ee0"
+                android:layout_margin="1dp" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/inquizitive"
+                android:scaleType="centerCrop"
+                android:id="@+id/quizBtn"
+                android:background="#8a98d7"
+                android:layout_margin="1dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/xodiafinal"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="0dp"
+                android:id="@+id/xodiaBtn"
+                android:background="#7da6d4"
+                android:layout_margin="1dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                app:srcCompat="@drawable/rclul"
+                android:background="#6fb4d1"
+                android:layout_margin="1dp"
+                android:id="@+id/wallstreetBtn" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/enigggg"
+                android:scaleType="fitXY"
+                android:id="@+id/enigmaBtn"
+                android:background="#8dc3da"
+                android:layout_margin="1dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/unravel"
+                android:id="@+id/unravelBtn"
+                android:background="#aad3e4"
+                android:layout_margin="1dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

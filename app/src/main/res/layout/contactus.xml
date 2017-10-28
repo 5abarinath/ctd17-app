@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rahul" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Amol Soley"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="+91 9604966150"
+                    android:textColorLink="#861000"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="2dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="amolsoley2925@gmail.com"
+                    android:textColorLink="#861000"
+                    android:autoLink="email"
+                    android:textAlignment="center"
+                    android:linksClickable="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/rahul"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Rahul Chaudhari"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="+91 9405129161"
+                    android:textColorLink="#861000"
+                    android:layout_marginBottom="2dp"
+                    android:textAlignment="center"
+                    android:linksClickable="true"
+                    android:autoLink="phone" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="rahul.chaudhari27297@gmail.com"
+                    android:textColorLink="#861000"
+                    android:autoLink="email"
+                    android:textAlignment="center"
+                    android:linksClickable="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/fbloogo"
+                android:clickable="true"
+                android:layout_marginRight="20dp"
+                android:tag="0"
+                android:id="@+id/button_fb" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitterlogo"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:tag="1"
+                android:id="@+id/button_twitter" />
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/amol"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amol Soley"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9604966150"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:linksClickable="true"
+                android:autoLink="phone"
+                android:textColorLink="#0000ff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="amolsoley2925@gmail.com"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:linksClickable="true"
+                android:autoLink="email"
+                android:textColorLink="#0000ff"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/rahul"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rahul Chaudhari"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9405129161"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:linksClickable="true"
+                android:autoLink="phone"
+                android:textColorLink="#0000ff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rahul.chaudhari27297@gmail.com"
+                android:layout_gravity="center"
+                android:linksClickable="true"
+                android:textSize="16sp"
+                android:autoLink="email"
+                android:textColorLink="#0000ff"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center">
+                <ImageView
+                    android:background="#ffffff"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/fbloogo"
+                    android:id="@+id/button_fb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <ImageView
+                    android:background="@color/colorAccent"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/twitterlogo"
+                    android:id="@+id/button_twitter"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
